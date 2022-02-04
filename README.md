@@ -6,14 +6,14 @@ This is the collaborative Jekyll site for CMS.636 - Extending the Museum, a digi
 1. Make a copy of your local cms636.github.io directory. Name it **cms636-new**.
 1. In your web browser, log in to GitHub using the cms636 login (passord in HS wiki). Go to [https://github.com/cms636/cms636.github.io/settings](https://github.com/cms636/cms636.github.io/settings)
 1. Under settings > Repository name, change cms636.github.io to Fall-2021. Click rename.
-1. In the command line, in your **cms636.github.io** directory, run `git remote set-url origin https://github.com/cms636/Fall-2021.git`
-1. In your **cms636.github.io** directory, open `_config.yml` in a text editor. In the lines reading `url:` and `siteurl: "http://cms636.github.io"`, add `/Fall-2021` to the end of the url string. Also add `/Fall-2021` inside the quotes after `baseurl:`. In the line with `relativeLinks:`, add `/Fall-2021` before `/links.jsonp`.
+1. In the command line, in your **cms636.github.io** directory, run `git remote set-url origin https://github.com/cms636/Spring-2021.git`
+1. In your **cms636.github.io** directory, open `_config.yml` in a text editor. In the lines reading `url:` and `siteurl: "http://cms636.github.io"`, add `/Spring-2021` to the end of the url string. Also add `/Spring-2021` inside the quotes after `baseurl:`. In the line with `relativeLinks:`, add `/Spring-2021` before `/links.jsonp`.
 1. In your **cms636.github.io** directory, navigate to the _includes directory and open header.html in a text editor. Add this line of HTML before line 5 (`<a class=“site-tile” …`):<br /> `<p class="archive-notice">This is the archived site for the Fall 2021 session of CMS.636 — for the current site, click <a href="http://cms636.github.io/">here</a>.</p>`
 1. In the command line, run the following commands:<br />
 `git add .`<br />
 `git commit -m "changes for archived site"`<br />
 `git push origin master`
-1. At [https://github.com/cms636/Fall-2021](https://github.com/cms636/Fall-2021), click the dropdown button that says “Branch: master”. In the text field, type gh-pages. Then click “Create branch: gh-pages.”
+1. At [https://github.com/cms636/Spring-2021](https://github.com/cms636/Spring-2021), click the dropdown button that says “Branch: master”. In the text field, type gh-pages. Then click “Create branch: gh-pages.”
 1. In the command line, run `cd ../` to back out of the directory.
 1. Rename your local **cms636.github.io** directory to **cms636-Fall-2021**.
 1. Notify last year's students that URLs for their material on the site have changed (they will need to insert `/Fall-2021` in any links to the site). The students are still collaborators on the archived site. If they wish to edit or remove their content, they should push changes to the gh-pages branch of the repo.
