@@ -12,3 +12,4 @@ author: 'Antonella, Delace, Joy, and Sarah'
 [Github Link](https://github.com/edwardsarah/parallax2)
 
 (A note about the code -- since it is now published on a public repository, we've removed our Google Maps API key. If you want to run the code, contact Delace and she can send you a key to put in your .env file)
+
