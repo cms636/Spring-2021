@@ -21,7 +21,6 @@ markdown: kramdown
 prose:
   rooturl: '_posts'
   siteurl: "http://cms636.github.io/Spring-2021/"
-  relativeLinks: 'http://cms636.github.io//Spring-2021/links.jsonp'
   media: 'assets'
   metadata:
     _posts:
